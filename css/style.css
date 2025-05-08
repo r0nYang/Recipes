@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+h1 {
+    border-bottom: 2px solid #4676a9;
+}
+
+h2 {
+    color: #4676a9;
+}
+
+main, footer, header {
+    max-width: 800px;
+    margin: 0 auto; /* Top-Bottom, Left-Right*/
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #4676a9;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0px;
+}
+
+li > a {
+    color: black;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+li > a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
